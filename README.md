@@ -17,8 +17,7 @@
 
 The fastest way to deploy the application is to click the **Deploy to Koyeb** button below.
 
-
-[![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?type=git&repository=github.com/CodeXBotz/File-Sharing-Bot&branch=koyeb&name=filesharingbot)
+https://app.koyeb.com/deploy?https://app.koyeb.com/deploy?type=git&repository=github.com/Skystapper/shin-na-imouto&branch=main&name=I moutochan&run_command=python3%20main.py&env[ADMINS]=2050656439%201568072396&env[API_HASH]=a30a033169425171b731104554f7a575&env[APP_ID]=9261804&env[CHANNEL_ID]=-1001760161570&env[DATABASE_URL]=postgres://asewneptzhqvsr:f5b5df011e73ba7cdd8f99e243ad953e6d292b60a5854cdffca17ecf2c9ae769@ec2-52-204-46-21.compute-1.amazonaws.com:5432/d44pli3oua6ekr&env[FORCE_SUB_CHANNEL]=-1001670640444&env[FORCE_SUB_MESSAGE]=Sumimasen {first} Senpai%0A%0A<b>But You need to join my Onee-Chan's Channel to use me%0A%0AKindly Please join Channel to continue our conversation</b>&env[OWNER_ID]=2050656439&env[PROTECT_CONTENT]=True&env[START_MESSAGE]=Hajimemashite {first} Senpai%0A%0A<b><i>I can provide you private files of Ecchi Senpai Channel through special links.</b></i>&env[TG_BOT_TOKEN]=5314219187:AAEYYV7c3A0EuZeClpq270KxlSwAdaUx6sc
 
 
 #### Deploy in your VPS
