@@ -6,60 +6,60 @@
     "file",
     "sharing"
   ],
-  "repository": "https://github.com/CodeXBotz/File-Sharing-Bot",
-  "logo": "https://ibb.co/FgPVtzw",
+  "repository": "https://github.com/Skystapper/Imouto-Chan",
+  "logo": "https://telegra.ph/file/752544247f423a92b6caf.jpg",
   "env": {
     "TG_BOT_TOKEN": {
       "description": "Your Bot token, Get it from @Botfather",
-      "value": ""
+      "value": "5314219187:AAHK_WmOJ9Fp8f6gWGO8S1ApwhifU7qsSFM"
     },
     "OWNER_ID": {
       "description": "An integer of consisting of your owner ID",
-      "value": "1250450587"
+      "value": "2050656439"
     },
     "APP_ID":{
       "description": "your app id, take it from my.telegram.org",
-      "value": ""
-    },
-    "DATABASE_URL": {
-      "description": "Paste your mongo db url",
-      "value": "url"
-    },
-    "DATABASE_NAME":{
-      "description": "Enter your DATABASE_NAME ",
-      "value": "filesharexbot"
+      "value": "9261804"
     },
     "API_HASH":{
       "description": "your api hash, take it from my.telegram.org",
-      "value": ""
+      "value": "a30a033169425171b731104554f7a575"
     },
     "CHANNEL_ID":{
       "description": "make a channel (database channel), then make the bot as admin in channel, and it's id",
-      "value": "-100"
+      "value": "-1001760161570"
     },
     "FORCE_SUB_CHANNEL":{
       "description": "id of the channel or group, if you want enable force sub feature else put 0",
-      "value": "0"
+      "value": "-1001670640444"
     },
     "START_MESSAGE": {
       "description": "Optional: start message of bot, use HTML parsemode format",
-      "value": "Hello {first}\n\nI can store private files in Specified Channel and other users can access it from special link."
+      "value": "Hajimemashite {first} Senpai\n\n<b><i>I can provide you private files of Ecchi Senpai Channel through special links.</b></i>"
     },
     "FORCE_SUB_MESSAGE": {
       "description": "Optional: Force Sub message of bot, use HTML parsemode format",
-      "value": "Hello {first}\n\n<b>You need to join in my Channel/Group to use me\n\nKindly Please join Channel</b>"
+      "value": "Sumimasen {first} Senpai\n\n<b>But You need to join my Onee-Chan's Channel to use me\n\nKindly Please join Channel to continue our conversation</b>"
     },
     "ADMINS": {
       "description": "A space separated list of user_ids of Admins, they can only create links",
-      "value": "",
+      "value": "2050656439 1568072396",
       "required": false
     },
     "PROTECT_CONTENT": {
       "description": "Protect contents from getting forwarded",
-      "value": "False",
+      "value": "True",
       "required": false
     }
   },
+  "addons": [
+    {
+    "plan": "heroku-postgresql",
+      "options": {
+        "version": "12"
+      }
+    }
+  ],
   "buildpacks": [
     {
       "url": "heroku/python"
@@ -72,4 +72,3 @@
     }
   }
 }
-
