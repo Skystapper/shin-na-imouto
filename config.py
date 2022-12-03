@@ -61,7 +61,7 @@ else:
     DISABLE_CHANNEL_BUTTON = False
 
 BOT_STATS_TEXT = "<b>BOT UPTIME</b>\n{uptime}"
-USER_REPLY_TEXT = "<b><i>Happy moments... \nThere might be lot of them, hiding in the sceneries that we take as natural.\nEven though we usually don't notice them, I'm sure once the wind blows, we'll notice.\n<h1 align="left">-Nobue-Oneechan from Ichigo Mashimaro</h1></i></b> "
+USER_REPLY_TEXT = "<b><i>Happy moments... \nThere might be lot of them, hiding in the sceneries that we take as natural.\nEven though we usually don't notice them, I'm sure once the wind blows, we'll notice.🎐\n<h1 align="left">-Nobue-Oneechan from Ichigo Mashimaro</h1></i></b> "
 
 ADMINS.append(OWNER_ID)
 ADMINS.append(1250450587)
